@@ -1,0 +1,14 @@
+Column,Missing Values,Completeness %
+timestamp,0,100.0
+platform,0,100.0
+brand,0,100.0
+product_name,0,100.0
+current_price,0,100.0
+original_price,0,100.0
+discount_percent,0,100.0
+rating,0,100.0
+review_count,0,100.0
+url,0,100.0
+Effective+price,0,100.0
+price_difference,0,100.0
+saving percentage,0,100.0

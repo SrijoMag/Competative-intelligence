@@ -1,0 +1,55 @@
+# ===========================
+# Python
+# ===========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python Distribution
+build/
+dist/
+*.egg-info/
+
+# Streamlit Cache
+.streamlit/cache/
+
+# Database
+*.db
+*.sqlite3
+
+# Environment Variables
+.env
+
+# Temporary Files
+*.tmp
+*.bak
+
+# Playwright Cache
+playwright/.cache/
+
+# Misc
+coverage.xml
+htmlcov/

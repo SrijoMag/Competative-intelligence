@@ -1,0 +1,92 @@
+.main {
+    background-color: #F5F7FA;
+}
+
+section[data-testid="stSidebar"] {
+    background-color: #1E293B;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white;
+}
+
+.kpi-card{
+    background: linear-gradient(135deg,#2563EB,#3B82F6);
+    color:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0px 5px 12px rgba(0,0,0,0.25);
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.kpi-card h3{
+    margin:0;
+    font-size:18px;
+}
+
+.kpi-card h1{
+    margin-top:10px;
+    font-size:34px;
+}
+
+h1{
+    color:#0F172A;
+}
+
+h2{
+    color:#1D4ED8;
+}
+
+h3{
+    color:#2563EB;
+}
+
+thead tr th{
+    background:#2563EB !important;
+    color:white !important;
+}
+
+tbody tr:nth-child(even){
+    background:#F1F5F9;
+}
+
+.stButton>button{
+
+    background:#2563EB;
+
+    color:white;
+
+    border-radius:10px;
+
+    border:none;
+
+    height:45px;
+
+    width:100%;
+}
+
+.stButton>button:hover{
+
+    background:#1D4ED8;
+
+    color:white;
+}
+
+[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:15px;
+
+    box-shadow:0px 2px 10px rgba(0,0,0,0.15);
+
+}
+
+footer{
+
+    visibility:hidden;
+
+}

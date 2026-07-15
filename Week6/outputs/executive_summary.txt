@@ -1,0 +1,71 @@
+============================================================
+WEEK 6 EXECUTIVE SUMMARY
+============================================================
+
+Total Products : 22
+Average Price : ₹3264.77
+Average Rating : 3.86
+Average Discount : 24.52%
+Average Opportunity Score : 49.54
+
+============================================================
+Recommendation Distribution
+============================================================
+final_recommendation
+Maintain Price             12
+Increase Promotion          5
+Premium Positioning         2
+Bundle Offer                1
+Improve Product Quality     1
+Reduce Price                1
+
+============================================================
+Priority Distribution
+============================================================
+priority
+High        9
+Medium      7
+Low         5
+Critical    1
+
+============================================================
+Average Price by Platform
+============================================================
+platform
+Amazon      3993.000000
+Croma       1899.000000
+Flipkart    4097.428571
+
+============================================================
+Top Brands by Opportunity Score
+============================================================
+brand
+Goboult    58.746667
+Boat       55.348750
+Noise      46.761429
+Jbl        35.872500
+
+============================================================
+Top 10 Priority Products
+============================================================
+  brand                                                                                                                       product_name  priority_score priority final_recommendation
+   Boat           boAt Nirvana Ion ANC Pro TWS Earbuds with Active Noise Cancellation (IPX4 Water Resistant, Dual EQ Modes, Crystal Black)          100.38 Critical       Maintain Price
+Goboult                   GOBOULT Cyborg TWS Earbuds with Environmental Noise Cancellation (IPX5 Water Resistant, Fast Charging, Blue Ice)           98.18     High   Increase Promotion
+   Boat boAt Airdopes 111v2 TWS Earbuds with Environmental Noise Cancellation (IPX4 Splash & Sweat Resistance, ASAP Charge, Classic Black)           97.73     High   Increase Promotion
+Goboult    GOBOULT Mustang Torq FGTW196SVR TWS Earbuds with Environmental Noise Cancellation (IPX5 Water Resistant, Fast Charging, Silver)           96.70     High       Maintain Price
+  Noise noise Buds VS102 Neo TWS Earbuds with Environmental Noise Cancellation (IPX5 Water Resistant, Hyper Sync Technology, Carbon Black)           95.61     High   Increase Promotion
+   Boat      boAt Nirvana Crown PP0031 TWS Earbuds with Hybrid Active Noise Cancellation (IPX4 Water Resistance, ASAP Charge, Blazing Red)           94.00     High       Maintain Price
+    Jbl                         JBL Wave Buds 2 TWS Earbuds with Active Noise Cancellation (IP54 Water Resistant, 40 Hours Playtime, Pink)           91.97     High   Increase Promotion
+   Boat                                     boAt Nirvana Ion ANC Pro w/ Hi-Res Audio with LDAC, ANC, 120H Battery, Multi-Connect Bluetooth           88.95     High       Maintain Price
+  Noise                             Noise Buds VS102 Neo with 40 Hrs Playtime, Environmental Noise Cancellation, Quad Mic Bluetooth Gaming           88.88     High         Bundle Offer
+  Noise noise Buds Marine AUDHDPHNBUDSMARINE TWS Earbuds with Active Noise Cancellation (IPX4 Water Resistant, Dual Pairing, Marine Black)           88.00     High   Increase Promotion
+
+============================================================
+Business Insights
+============================================================
+
+- Products with high opportunity scores should receive immediate business attention.
+- Premium products with excellent ratings can maintain higher pricing.
+- Low-rated products require quality improvement before pricing changes.
+- Promotional strategies should target products with medium opportunity scores.
+- Priority products should be monitored daily for competitor price changes.
