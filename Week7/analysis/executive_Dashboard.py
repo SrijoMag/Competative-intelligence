@@ -7,14 +7,14 @@ from kpi_card import kpi_card
 
 def show_dashboard():
 
-    st.title("📊 Executive Dashboard")
+    st.title(" Executive Dashboard")
     st.markdown("### Competitive Intelligence & Pricing Strategy Engine")
 
     df = load_dashboard()
 
     kpi = get_kpis(df)
 
-    st.markdown("## 📌 Business KPIs")
+    st.markdown("##  Business KPIs")
 
     c1, c2, c3, c4 = st.columns(4)
 

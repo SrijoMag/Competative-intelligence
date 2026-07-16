@@ -5,7 +5,7 @@ from utils import *
 
 def show_recommendation_dashboard():
 
-    st.title("🎯 Strategic Recommendation Dashboard")
+    st.title(" Strategic Recommendation Dashboard")
 
     df = load_dashboard()
 

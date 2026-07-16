@@ -8,7 +8,7 @@ from utils import *
 
 def show_geo_dashboard():
 
-    st.title("🌍 Geo Analytics Dashboard")
+    st.title(" Geo Analytics Dashboard")
 
     st.markdown(
         "Geographical visualization of competitor activity."

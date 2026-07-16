@@ -6,7 +6,7 @@ from utils import *
 
 def show_export_center():
 
-    st.title("📤 Export Reports")
+    st.title(" Export Reports")
 
     st.markdown(
         "Download datasets, recommendations and analytical reports."

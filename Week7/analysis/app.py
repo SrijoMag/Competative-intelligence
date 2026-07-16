@@ -13,7 +13,6 @@ from geo_dashboard import show_geo_dashboard
 
 st.set_page_config(
     page_title="Competitive Intelligence Platform",
-    page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -29,7 +28,6 @@ st.sidebar.title("Pricing Intelligence")
 
 st.sidebar.markdown(
 """
-### Week 7 Dashboard
 
 Strategic Recommendation Engine
 """
@@ -41,21 +39,21 @@ page = st.sidebar.radio(
 
     [
 
-        "🏠 Home",
+        " Home",
 
-        "📊 Executive Dashboard",
+        " Executive Dashboard",
 
-        "🏢 Competitor Monitor",
+        " Competitor Monitor",
 
-        "💰 Pricing Simulator",
+        " Pricing Simulator",
 
-        "🎯 Recommendation Dashboard",
+        " Recommendation Dashboard",
 
-        "🚨 Competitor Alerts",
+        " Competitor Alerts",
 
-        "📤 Export Reports",
+        " Export Reports",
 
-        "🌍 Geo Dashboard"
+        " Geo Dashboard"
 
     ]
 
@@ -71,38 +69,37 @@ Srijoswin Mazumder
 
 Competitive Intelligence & Pricing Strategy Engine
 
-Week 7
 """
 )
 
-if page == "🏠 Home":
+if page == " Home":
 
     show_home()
 
-elif page == "📊 Executive Dashboard":
+elif page == " Executive Dashboard":
 
     show_dashboard()
 
-elif page == "🏢 Competitor Monitor":
+elif page == " Competitor Monitor":
 
     show_competitor_monitor()
 
-elif page == "💰 Pricing Simulator":
+elif page == " Pricing Simulator":
 
     show_pricing_simulator()
 
-elif page == "🎯 Recommendation Dashboard":
+elif page == " Recommendation Dashboard":
 
     show_recommendation_dashboard()
 
-elif page == "🚨 Competitor Alerts":
+elif page == " Competitor Alerts":
 
     show_alert_dashboard()
 
-elif page == "📤 Export Reports":
+elif page == " Export Reports":
 
     show_export_center()
 
-elif page == "🌍 Geo Dashboard":
+elif page == " Geo Dashboard":
 
     show_geo_dashboard()

@@ -6,7 +6,7 @@ from utils import *
 
 def show_pricing_simulator():
 
-    st.title("💰 Dynamic Pricing Simulator")
+    st.title(" Dynamic Pricing Simulator")
 
     df = load_dashboard()
 
