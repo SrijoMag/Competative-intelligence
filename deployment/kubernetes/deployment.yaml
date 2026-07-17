@@ -1,0 +1,48 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: competitive-pricing-engine
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: pricing-engine
+
+  template:
+    metadata:
+      labels:
+        app: pricing-engine
+
+    spec:
+
+      containers:
+
+      - name: pricing-engine
+
+        image: srijoswin/competitive-pricing-engine:latest
+
+        imagePullPolicy: Always
+
+        ports:
+        - containerPort: 8501
+
+        env:
+
+        - name: STREAMLIT_SERVER_PORT
+          value: "8501"
+
+        - name: STREAMLIT_SERVER_ADDRESS
+          value: "0.0.0.0"
+
+        resources:
+
+          requests:
+            cpu: "250m"
+            memory: "256Mi"
+
+          limits:
+            cpu: "500m"
+            memory: "512Mi"

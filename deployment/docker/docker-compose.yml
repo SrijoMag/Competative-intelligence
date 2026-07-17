@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+
+  pricing-engine:
+
+    image: srijoswin/competitive-pricing-engine:latest
+
+    container_name: competitive_pricing_engine
+
+    ports:
+      - "8501:8501"
+
+    restart: unless-stopped
+
+    volumes:
+      - ../../data:/app/data
+      - ../../outputs:/app/outputs
+      - ../../reports:/app/reports
+
+    environment:
+      STREAMLIT_SERVER_PORT: 8501
+      STREAMLIT_SERVER_ADDRESS: 0.0.0.0
