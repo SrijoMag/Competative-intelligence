@@ -84,4 +84,4 @@ Kubernetes
 
 ## Outcome
 
-A complete Competitive Intelligence Platform capable of supporting strategic pricing decisions.
+A complete Competitive Intelligence Platform capable of supporting strategic pricing decisions.docker login
